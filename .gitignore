@@ -1,0 +1,74 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+*.log
+*.sqlite3
+*.db
+
+# ---- Virtual Environment ----
+venv/
+env/
+ENV/
+.venv/
+.pyenv/
+pip-wheel-metadata/
+pip-log.txt
+dotenv/
+# ---- FastAPI / Uvicorn ----
+# Uvicorn log or temp files
+*.pid
+*.sock
+
+# ---- Environment & Secrets ----
+.env
+.env.*
+!.env.example
+
+# ---- VS Code / PyCharm ----
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# ---- Build & Distribution ----
+build/
+dist/
+*.egg-info/
+.eggs/
+MANIFEST
+
+# ---- Testing & Coverage ----
+.coverage
+htmlcov/
+.tox/
+.nox/
+pytest_cache/
+coverage.xml
+
+# ---- MyPy / Pylint / Ruff ----
+.mypy_cache/
+.dmypy.json
+.pyre/
+.pytype/
+ruff_cache/
+
+# ---- Jupyter / Notebooks ----
+.ipynb_checkpoints
+
+# ---- OS Specific ----
+.DS_Store
+Thumbs.db
+
+# ---- Docker ----
+*.pid
+*.seed
+*.bak
+docker-compose.override.yml
+
+# ---- Misc ----
+logs/
+tmp/
+cache/
